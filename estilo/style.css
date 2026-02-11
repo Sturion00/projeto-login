@@ -49,7 +49,7 @@ section#login > div#imagem {
     background: #331C13 url(../imagens/login-p.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
-    height: 20vh;
+    height: 35%;
 }
 
 section > div#formulario {
@@ -57,4 +57,55 @@ section > div#formulario {
     padding: 10px;
     padding-top: 5vh;
     text-align: center;
+}
+
+form {
+    color: white;
+    margin: 15px;
+}
+form  div.campo  label {
+    display: none;
+} 
+
+span#indent {
+    /* padding-left: 10px ; */
+}
+
+Form input[type=email], form input[type=password] {
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin: 5px;
+}
+
+form > input[type=submit] {
+    display: inline-block;
+    font-size: 1em;
+    width: 50%;
+    border-radius: 7px;
+    background-color: #965F48;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #c28b74
+}
+
+form a.botao {
+    display: block;
+    font-size: .8em;
+    text-decoration: none;
+    color: #965F48;
+}
+
+form a.botao:hover {
+    text-decoration: underline;
+}
+
+div span#mail {
+    padding-top: 5px; 
+    font-size: .8em;
 }

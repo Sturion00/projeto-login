@@ -7,13 +7,13 @@
 
     section#login {
         width: 70vw;
-        height: 500px;
+        min-height: 300px;
         background-image: linear-gradient(45deg, #331C13, #5c3d30);
     }
 
     section#login > div#imagem {
         float: left;
-        width: 30vw;
+        width: 45%;
         height: 100%;
         background: #331C13 url(../imagens/login.jpg) no-repeat;
         background-size: cover;
@@ -43,7 +43,7 @@
         background-size: cover;
         background-position: center center;
         float: left;
-        width: 25vw;
+        width: 45%;
         height: 100%;
     }
 
@@ -70,7 +70,9 @@
         background: #331C13 url(../imagens/login.jpg) no-repeat;
         background-size: cover;
         background-position: bottom center;
-        width: 30vw;
+        width: 45%;
         height: 100%;
     }
+
+    
 }
