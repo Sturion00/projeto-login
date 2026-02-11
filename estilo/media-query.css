@@ -66,10 +66,10 @@
     }
 
     section#login > div#imagem {
+        float: right;
         background: #331C13 url(../imagens/login.jpg) no-repeat;
         background-size: cover;
         background-position: bottom center;
-        float: left;
         width: 30vw;
         height: 100%;
     }
