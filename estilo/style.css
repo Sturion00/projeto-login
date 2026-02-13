@@ -32,7 +32,6 @@ section#login {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
     background-color: #331C13;
     width: 80vw;
     height: 70vh;
@@ -40,6 +39,7 @@ section#login {
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
 
+    transform: translate(-50%,-50%);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 }
@@ -52,7 +52,7 @@ section#login > div#imagem {
     height: 35%;
 }
 
-section > div#formulario {
+section#login > div#formulario {
     display: block;
     padding: 10px;
     padding-top: 5vh;
